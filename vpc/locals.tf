@@ -7,6 +7,6 @@ locals  {
         ManagedBy = var.ManagedBy
         Owner = var.owner
    }
-   name = "aws-${var.team}-${var.env}-${var.project}-${var.application_tier}-%s"
+   name = "test-${var.team}-${var.env}-${var.project}-${var.application_tier}-%s"
     
 }
